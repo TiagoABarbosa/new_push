@@ -1,0 +1,10 @@
+--iniciar o git no repositorio
+git init 
+
+--alter branch de master para main(padrão)
+git branch -m master main
+
+--configurar conta email e senha
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+
