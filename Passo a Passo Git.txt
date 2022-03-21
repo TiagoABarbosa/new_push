@@ -8,3 +8,16 @@ git branch -m master main
 git config --global user.name "Fulano de Tal"
 git config --global user.email fulanodetal@exemplo.br
 
+--adcionar todos arquivos para envio
+git add .
+
+--primeiro commit
+git commit -m "primeiro commit"
+
+--add seu repositorio já existente no github
+git remote add origin https://github.com/TiagoABarbosa/new_push.git
+
+--enviar arquivos para github e sincronizado
+git push -u origin main
+
+caso não tenha configurado a senha um popup irá solicitar a validação
